@@ -7,7 +7,7 @@
 >#### Django with front and back end seperation.  (Using `CORS`)
 >* Frontend server is run by `Nginx` and it mainly tackles with requests for viewable resources (E.g. loading templates).  
 >* Backend server mainly handles data processing functions and makes connections to third party applications.  
-> It is able to support requests from different sources (E.g. HTML, IOS, etc.) by using JSON as its only data transfer method.
+> It can adapt to requests from different sources (E.g. HTML, mobile, etc.) by using JSON as its only data transfer method.
 
 
 ### Features:
