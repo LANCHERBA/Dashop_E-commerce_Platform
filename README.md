@@ -5,9 +5,11 @@
 
 ### Structure:    
 >#### Django with Backend Frontend seperated. <br>
->>Frontend is run by Nginx and it mainly tackles with requests for viewable resources (ex.templates).  
->>Backend is run as a basic backend server and it mainly tackles with data and 
+>>Frontend server is run by Nginx and it mainly tackles with requests for viewable resources (example: templates).  
+>>Backend server tackles with processing data and support different platforms(example: HTML, IOS, etc.)
 
 ### Features:
+>#### Register
+>> Register with personal information or register with a third-party account.
 >#### Login  
->> Login with account info or third party authorized info.  
+>> Login with registered account information or third-party authorized information.  
