@@ -5,12 +5,12 @@
 
 ### Structure:    
 >#### Framework: Django with front and back end seperation  (Using `CORS`)
->* Frontend server is run by `Nginx` and it mainly tackles with requests for viewable resources (E.g. loading templates).  
+>* Frontend server is run by `Nginx` and it mainly tackles with requests for viewable resources (E.g. loading templates).  Also, it will call backend server using Ajax for needed data.
 >* Backend server mainly handles data processing functions and makes connections with third party applications.  
 > It can adapt to requests from different sources (E.g. HTML, mobile, etc.) by using `JSON` as its unique data transfer method.  
 >#### Data Storage
 >* Redis for cache.
->* MySQL for other data (E.g. goods info, money related data).
+>* MySQL for other data (E.g. goods info, payment related data).
 
 
 ### Features:
