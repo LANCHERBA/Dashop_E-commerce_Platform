@@ -11,7 +11,7 @@
 
 
 ### Features:
->#### Register
+>#### Register - supported by Oauth2
 >* Register with personal information or register with a third-party account.
->#### Login  
->* Login with registered account information or third-party authorized information.  
+>#### Login - supported by JWT, SMTP, Celery
+>* Login with registered account information or third-party authorized information. Login users will be remembered for certain of time and    
