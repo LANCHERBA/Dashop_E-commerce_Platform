@@ -1,7 +1,7 @@
 # Dashop E-commerce Platform  
 
 ### Discription:   
->#### Dashop is a `B2C` E-commerce platform(coop project) which sells bags online.  
+>#### Dashop is a `B2C` E-commerce platform(Linux based coop project) which sells bags online.  
 
 ### Structure:    
 >#### Framework: Django with front and back end seperation  (Using `CORS`)
