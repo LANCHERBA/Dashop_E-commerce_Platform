@@ -20,7 +20,7 @@
 >* Verification emails will be sent by SMTP server and Celery is used to handle this task.
 >#### Login - supported by JWT
 >* Login with registered account information. Users will be remembered for certain of time after they login to their accounts.    
->#### Show goods/shopping carts info - supported by Redis
+>#### Goods/shopping carts info - supported by Redis, Restful API
 >* Cache is used to improve the data loading efficiency. Cache will be updated when changes on data occur. 
 >#### Payment - supported by Alipay
 >* Paying processes are supported by Alipay.
